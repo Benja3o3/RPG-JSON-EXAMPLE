@@ -1,0 +1,130 @@
+{
+    "characters": [
+        {
+            "id": 1,
+            "name": "Aventurero",
+            "class": "Guerrero",
+            "level": 10,
+            "experience": 5000,
+            "health": 100,
+            "missionsCompleted": [1],
+            "attributes": {
+                "strength": 20,
+                "dexterity": 15,
+                "intelligence": 10,
+                "constitution": 18
+            },
+            "equipment": [
+                {
+                    "name": "Espada de Hierro",
+                    "type": "Arma",
+                    "attack": 25
+                },
+                {
+                    "name": "Armadura de Cuero",
+                    "type": "Armadura",
+                    "defense": 15
+                }
+            ],
+            "skills": [
+                {
+                    "name": "Ataque Furioso",
+                    "description": "Realiza un ataque poderoso, sacrificando defensa por daño.",
+                    "cost": 30
+                },
+                {
+                    "name": "Protección Divina",
+                    "description": "Invoca una protección temporal que reduce el daño recibido.",
+                    "cost": 20
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Mago",
+            "class": "Mago",
+            "level": 8,
+            "experience": 4000,
+            "health": 80,
+            "missionsCompleted": [],
+            "attributes": {
+                "strength": 8,
+                "dexterity": 12,
+                "intelligence": 25,
+                "constitution": 10
+            },
+            "equipment": [
+                {
+                    "name": "Bastón de Magia",
+                    "type": "Arma",
+                    "attack": 15
+                },
+                {
+                    "name": "Túnica de Magia",
+                    "type": "Armadura",
+                    "defense": 10
+                }
+            ],
+            "skills": [
+                {
+                    "name": "Rayo Arcano",
+                    "description": "Lanza un rayo de energía arcana contra el enemigo.",
+                    "cost": 25
+                },
+                {
+                    "name": "Escudo Mágico",
+                    "description": "Crea un escudo mágico que bloquea el próximo ataque enemigo.",
+                    "cost": 15
+                }
+            ]
+        }
+    ],
+    "missions": [
+        {
+            "id": 1,
+            "title": "Rescate en el Bosque Oscuro",
+            "description": "Encuentra y rescata al aldeano perdido en el Bosque Oscuro.",
+            "levelRecommended": 5,
+            "status": "available",
+            "requirements": [],
+            "enemies": [
+                {
+                    "name": "Lobo Salvaje",
+                    "type": "Bestia",
+                    "level": 7
+                },
+                {
+                    "name": "Araña Venenosa",
+                    "type": "Bestia",
+                    "level": 6
+                }
+            ],
+            "reward": "100 monedas de oro"
+        },
+        {
+            "id": 2,
+            "title": "Derrota al Dragón de Fuego",
+            "description": "Enfréntate al temible dragón que ha estado aterrorizando el reino.",
+            "levelRecommended": 15,
+            "status": "locked",
+            "requirements": [
+                {
+                    "type": "level",
+                    "value": 10
+                },
+                {
+                    "type": "mission",
+                    "value": 1
+                }
+            ],
+            "enemies": [
+                {
+                    "name": "Dragón de Fuego",
+                    "type": "Dragón",
+                    "level": 20
+                }
+            ],
+            "reward": "Espada legendaria"
+        }
+    ]
+}
