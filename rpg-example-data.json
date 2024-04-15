@@ -4,10 +4,10 @@
             "id": 1,
             "name": "Aventurero",
             "class": "Guerrero",
+            "img": "https://raw.githubusercontent.com/Benja3o3/RPG-JSON-EXAMPLE/main/warrior.png",
             "level": 10,
             "experience": 5000,
             "health": 100,
-            "missionsCompleted": [1],
             "attributes": {
                 "strength": 20,
                 "dexterity": 15,
@@ -43,10 +43,10 @@
             "id": 2,
             "name": "Mago",
             "class": "Mago",
+            "img": "https://raw.githubusercontent.com/Benja3o3/RPG-JSON-EXAMPLE/main/wizard.png",
             "level": 8,
             "experience": 4000,
             "health": 80,
-            "missionsCompleted": [],
             "attributes": {
                 "strength": 8,
                 "dexterity": 12,
