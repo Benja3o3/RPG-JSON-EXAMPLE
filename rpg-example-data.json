@@ -2,7 +2,7 @@
     "characters": [
         {
             "id": 1,
-            "name": "Aventurero",
+            "name": "Joe",
             "class": "Guerrero",
             "img": "https://raw.githubusercontent.com/Benja3o3/RPG-JSON-EXAMPLE/main/warrior.png",
             "level": 10,
@@ -41,7 +41,7 @@
         },
         {
             "id": 2,
-            "name": "Mago",
+            "name": "Merlin",
             "class": "Mago",
             "img": "https://raw.githubusercontent.com/Benja3o3/RPG-JSON-EXAMPLE/main/wizard.png",
             "level": 8,
