@@ -2,7 +2,7 @@
     "characters": [
         {
             "id": 1,
-            "name": "Aventurero",
+            "name": "Joe",
             "class": "Guerrero",
             "img": "https://raw.githubusercontent.com/Benja3o3/RPG-JSON-EXAMPLE/main/warrior.png",
             "level": 10,
@@ -41,7 +41,46 @@
         },
         {
             "id": 2,
-            "name": "Mago",
+            "name": "Elena",
+            "class": "Arquero",
+            "img": "https://raw.githubusercontent.com/Benja3o3/RPG-JSON-EXAMPLE/main/archer.png",
+            "level": 8,
+            "experience": 3800,
+            "health": 80,
+            "attributes": {
+                "strength": 12,
+                "dexterity": 22,
+                "intelligence": 14,
+                "constitution": 15
+            },
+            "equipment": [
+                {
+                    "name": "Arco de Ébano",
+                    "type": "Arma",
+                    "attack": 20
+                },
+                {
+                    "name": "Túnica de Tela",
+                    "type": "Armadura",
+                    "defense": 10
+                }
+            ],
+            "skills": [
+                {
+                    "name": "Disparo Preciso",
+                    "description": "Realiza un disparo certero que inflige daño adicional.",
+                    "cost": 25
+                },
+                {
+                    "name": "Camuflaje",
+                    "description": "Se camufla con el entorno, aumentando su evasión temporalmente.",
+                    "cost": 15
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Merlin",
             "class": "Mago",
             "img": "https://raw.githubusercontent.com/Benja3o3/RPG-JSON-EXAMPLE/main/wizard.png",
             "level": 8,
