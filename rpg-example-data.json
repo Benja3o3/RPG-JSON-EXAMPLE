@@ -141,27 +141,6 @@
             "reward": "100 monedas de oro"
         },
         {
-            "id": 1,
-            "title": "Rescate en el Bosque Oscuro",
-            "description": "Encuentra y rescata al aldeano perdido en el Bosque Oscuro.",
-            "levelRecommended": 5,
-            "status": "available",
-            "requirements": [],
-            "enemies": [
-                {
-                    "name": "Lobo Salvaje",
-                    "type": "Bestia",
-                    "level": 7
-                },
-                {
-                    "name": "Araña Venenosa",
-                    "type": "Bestia",
-                    "level": 6
-                }
-            ],
-            "reward": "100 monedas de oro"
-        },
-        {
             "id": 2,
             "title": "Búsqueda del Tesoro Perdido",
             "description": "Explora las ruinas antiguas y encuentra el tesoro perdido.",
