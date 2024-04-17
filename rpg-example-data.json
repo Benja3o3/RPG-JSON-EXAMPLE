@@ -79,7 +79,7 @@
             ]
         },
         {
-            "id": 2,
+            "id": 3,
             "name": "Merlin",
             "class": "Mago",
             "img": "https://raw.githubusercontent.com/Benja3o3/RPG-JSON-EXAMPLE/main/wizard.png",
@@ -183,7 +183,7 @@
             "reward": "Arma legendaria"
         },
         {
-            "id": 2,
+            "id": 4,
             "title": "Derrota al Dragón de Fuego",
             "description": "Enfréntate al temible dragón que ha estado aterrorizando el reino.",
             "levelRecommended": 15,
